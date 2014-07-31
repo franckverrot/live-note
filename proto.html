@@ -1,0 +1,45 @@
+ <html>
+          <head>
+          <title>Live Note!</title>
+              <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/> 
+    <link rel="apple-touch-icon" href="static/livenote.gif" /> 
+    <meta name="apple-touch-fullscreen" content="yes" /> 
+    <link rel="stylesheet" title="Default" href="static/theme.css"  type="text/css"/> 
+    <script type="application/x-javascript" src="static/iui.js"></script> 
+     <script type="application/x-javascript" src="static/iui-theme-switcher.js"></script> 
+  <link rel="alternate stylesheet" title="iPhoneDevCamp" href="static/ipdc-theme.css"  type="text/css"/> 
+  <script type="text/javascript">
+  </script>
+  </head>
+  <body>
+    <div class="toolbar"> 
+      <h1 id="pageTitle"></h1> 
+      <a id="backButton" class="button" href="#"></a> 
+      <a class="button" href="#about">About</a> 
+    </div> 
+    
+    <ul id="home" title="Live Note!" selected="true"> 
+        <li><a href="#newnote">New note</a></li> 
+        <li><a href="#about">About</a></li> 
+    </ul> 
+    
+    
+    <div id="newnote" class="panel" title="New note"> 
+        <h2>Write text and/or attach media</h2> 
+        <form id="new-note" action="/" method="post"> 
+           <textarea name="content" cols=80 rows=10></textarea>
+           <input type="submit" name="submit" value="Send to Wave!"/>
+        </form> 
+    </div> 
+
+<div id="about" class="panel" title="About"> 
+   <h2>How does it work?</h2><br/> 
+  Very simple: enter some text here. That will create automatically a Wavelet (and its parent Wave if you are a first-time user. Only you will be able to access the wave.<br />
+  What's great?<br />
+  <ol>
+  <li>You can use this interface</li>
+   <li>You can add live-note@appspot.com to Google Talk and start chatting with the app: your notes will be taken</li>
+    <li>Wave will be your only place to store your notes.</li>
+  </ol>
+  </div>
+</body></html>
